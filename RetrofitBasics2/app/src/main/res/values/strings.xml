@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Retrofit Basics</string>
+    <string name="list_todos_title">Lista de Tarefas</string>
+    <string name="add_todo_menu_item">Adicionar Todo</string>
+    <string name="add_todo_description_label">Descrição</string>
+    <string name="add_todo_insert_description_hint">Insira a descrição da tarefa</string>
+    <string name="add_todo_owner_label">Dono</string>
+    <string name="add_todo_insert_owner_hint">Insira o dono da tarefa</string>
+    <string name="add_todo_assigned_to_label">Assinado para</string>
+    <string name="add_todo_insert_assigned_to_hint">Insira o executor da tarefa</string>
+    <string name="add_todo_completed_label">Completo?</string>
+    <string name="add_todo_success_label">Criado com sucesso!</string>
+    <string name="hello_proceed_login">Olá, faça seu login.</string>
+    <string name="login">login</string>
+    <string name="forgot_password">Esqueceu sua senha?</string>
+    <string name="email_or_user">Email ou usuário</string>
+    <string name="password">Senha</string>
+    <string name="preference_file_key">preference_file_key</string>
+
+</resources>

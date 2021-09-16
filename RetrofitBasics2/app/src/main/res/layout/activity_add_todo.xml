@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="32dp"
+    android:paddingRight="32dp"
+    android:orientation="vertical"
+    tools:context=".feature.todo.presentation.activity.MainActivity">
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/add_todo_description_label" />
+
+    <EditText
+        android:id="@+id/etDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/add_todo_insert_description_hint"
+        android:hint="@string/add_todo_insert_description_hint"/>
+
+    <TextView
+        android:id="@+id/tvOwner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/add_todo_owner_label" />
+
+    <EditText
+        android:id="@+id/etOwner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_todo_insert_owner_hint"/>
+
+    <TextView
+        android:id="@+id/tvAssignedTo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/add_todo_assigned_to_label" />
+
+    <EditText
+        android:id="@+id/etAssignedTo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_todo_insert_assigned_to_hint"/>
+
+    <CheckBox
+        android:id="@+id/cbCompleted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_todo_completed_label" />
+
+    <Button
+        android:id="@+id/btAddTodo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_todo_menu_item"
+        android:layout_marginTop="40dp" />
+</androidx.appcompat.widget.LinearLayoutCompat>
